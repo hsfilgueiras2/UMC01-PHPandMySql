@@ -1,0 +1,317 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+    background: linear-gradient(180deg, #1D1E18 0%, #6B8F71 60%, #9bbbb2 100%);
+    background-attachment:fixed;
+height:100%;
+}
+.navbar{
+    background: #1D1E18 ;
+}
+.profile{
+    color:#1D1E18;
+    background: #D9FFF5;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+    width: 600px;
+    border-radius: 80px;
+
+}
+.profile span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainProfile{
+    color: #D9FFF5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile img{
+
+    height:300px;
+    width: 300px;
+    border-radius: 50px;
+
+}
+.profile a:link { text-decoration: none; }
+
+
+.profile a:visited { text-decoration: none; }
+
+
+.profile a:hover { text-decoration: none; }
+
+
+.profile a:active { text-decoration: none; }
+
+
+.bn31 {
+    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #044221;
+    display: block;
+    height: 70px;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 200px;
+    z-index: 2;
+  }
+  
+  .bn31:hover {
+    color: #fff;
+  }
+  
+  .bn31 .bn31span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  .bn31span{
+    font-size: medium;
+  }
+  .bn31:hover .bn31span {
+    background: transparent;
+  }
+  .editProfileMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .editProfileMain img{
+
+    height:300px;
+    width: 300px;
+    border-radius: 50px;
+  }
+
+  .editProfileForm{
+    box-sizing: border-box;
+    border-radius: 80px;
+    background: #6B8F71;
+    height:1400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:30px;
+
+  }
+  .editProfileForm > span{
+    background: #B9F5D8;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .editProfileForm img{
+    margin-bottom: 10px;
+  }
+  
+  .editProfileForm div{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .editProfileForm div span{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    background: #B9F5D8;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .editProfileForm div span h4{
+    margin-left: 10px;
+  }
+  .editProfileForm div span h6{
+    margin-left: 5px;
+  }
+  
+  .editProfileForm span >input, .editProfileForm textarea{
+    border-radius: 5px;
+    width: 100%;
+    text-shadow: #1D1E18;
+    border-width: 0.5px;
+  }
+  .editProfileForm .btn31{
+    width:50%;
+  }
+  .editProfileForm >span>input{
+    width: 95%;
+  }
+  .usersListMain{
+    color:#D9FFF5;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .usersList{
+    color:#1D1E18;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width:1200px;
+  }
+  ul {
+    list-style-type: none;
+}
+  .usersList li {
+    font-size: larger;
+    box-sizing: border-box;
+    height: 450px;
+    width: 350px;
+    background: #6B8F71;
+    position:relative;
+    border-radius: 30px;
+    box-shadow: #044221;
+    border-width: 1px;
+    border-color: #044221;
+    border: 2px;
+    border-style: solid;
+    margin:10px;
+  }
+  .usersList li img {
+    top:5%;
+    left:5%;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+  }
+  .usersList li .fullname{
+    width: 160px;
+    display: flex;
+    text-align: end;
+    justify-content: right;
+    position: absolute;
+    top: 5%;
+    right:10%
+  }
+  .usersList li .identification{
+    position: absolute;
+    top: 18%;
+    right:10%
+  }
+  .usersList li .birthday{
+    position: absolute;
+    top: 24%;
+    right:10%
+  }
+  .usersList li .email{
+    position: absolute;
+    top: 37%;
+    left:5%
+  }
+  .usersList li .telephone{
+    position: absolute;
+    top: 43%;
+    left:5%
+  }.usersList li .address{
+    position: absolute;
+    top: 48%;
+    left:5%
+  }
+  .usersList li .bio{
+    position: absolute;
+    top: 54%;
+    left:5%;
+    width:90%;
+    word-break: break-all;
+  }
+  .usersList li .delButton{
+    position: absolute;
+    height:50px;
+    width:100px;
+    bottom:5%;
+    left:37%;
+    font-size: smaller;
+  }
+  .homeMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color:#6B8F71
+  }
+  .loginMain, .registerMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .registerForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .loginForm .input,.registerForm .input
+  {
+    margin: 5px;
+    height:50px;
+    width:250px;
+    border-radius: 5px;
+    border-width: 0.5px;
+  }
+  .loginForm :last-child{
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    border-width: 0.5px;
+    background: #1D1E18;
+    color:#D9FFF5;
+  }
+  .registerForm{
+    color:#D9FFF5
+
+  }
+  .profile > :nth-last-child(2) h5{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    word-break: break-all;
+  }
+  .registerForm >:last-child {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 0.5px;
+    background: #1D1E18;
+    color:#D9FFF5
+
+  }
